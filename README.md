@@ -14,6 +14,9 @@ Prerequisites: add the Pluto package.  (E.g., from a Julia REPL, `] add Pluto`.)
 
 ## From a Julia REPL
 
+
+![REPL](./lsj-repl.gif)
+
 At a Julia REPL:
 
 ```{julia}
