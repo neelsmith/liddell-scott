@@ -20,15 +20,17 @@ begin
 	using Markdown
 	using PlutoUI
 	using PlutoTeachingTools
-	nbversion = "1.1.0"
+	nbversion = "1.0.0"
 	md"""*Notebook version*: **$(nbversion)**. *See version info*: $(@bind versioninfo CheckBox())"""
 end
+
+# ╔═╡ 242b68cf-2ca1-4901-9049-07f23c2eabdd
+TableOfContents()
 
 # ╔═╡ 49e06755-2873-4db0-9326-83f07252bf7a
 if versioninfo
 md"""
 
-- **1.1.0**: adds option to limit search by lemma to initial string match
 - **1.0.0**: initial release
 """
 end
@@ -49,9 +51,6 @@ else
 	initial = false
 	nothing
 end
-
-# ╔═╡ 242b68cf-2ca1-4901-9049-07f23c2eabdd
-TableOfContents()
 
 # ╔═╡ fb5cf0cf-edc1-4bda-bd35-9d45ea1bf746
 html"""
