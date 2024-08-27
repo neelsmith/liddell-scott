@@ -9,7 +9,7 @@ Interactively search and read content of Liddell and Scott 's *Greek Lexicon* us
 
 Prerequisites: add the Pluto package.  (E.g., from a Julia REPL, `] add Pluto`.)
 
-> ### COMING SOON!
+![Notebook](./lsj-pluto.gif)
 
 
 ## From a Julia REPL
